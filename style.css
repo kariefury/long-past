@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+    color: #f0f0f0; /* Lighter text */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #00CED1; /* Dark Turquoise */
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #00FFFF; /* Turquoise */
+}
+
+a {
+    color: #fff; /* White */
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff; /* White */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px; /* Add space between entries */
+}
+
+#toc {
+    max-width: 600px;
+    margin: 0 auto;
+}

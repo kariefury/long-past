@@ -1,0 +1,25 @@
+{
+  "name": "long-past",
+  "version": "1.0.0",
+  "description": "Historic blog.carriesegal.com",
+  "main": "app.js",
+  "dependencies": {
+    "fast-xml-parser": "^4.3.2",
+    "he": "^1.2.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kariefury@github.com/kariefury/long-past.git"
+  },
+  "author": "Carrie Segal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kariefury/long-past/issues"
+  },
+  "homepage": "https://github.com/kariefury/long-past#readme"
+}
