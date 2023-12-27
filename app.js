@@ -3,7 +3,7 @@ const xml2js = require('xml2js');
 const he = require('he');
 
 const xmlFilePath = 'carriesblog.WordPress.2023-12-27.xml';
-const outputDirectory = 'output';
+const outputDirectory = 'docs';
 const faviconPath = 'favicon.ico'; // Update with the correct path to your favicon file
 
 // Create output directory
