@@ -1,29 +1,28 @@
 body {
-    background-color: #000;
-    color: #f0f0f0; /* Lighter text */
-    font-family: 'Roboto', sans-serif;
+    background-color: #1E1E1E; /* Dark Background */
+    color: #EFEFEF; /* Light Text Color */
+    font-family: 'Courier New', monospace; /* Monospaced Font */
     margin: 0;
-    padding: 20px;
-    text-align: center;
+    padding: 0;
+    text-align: left;
 }
 
 h1 {
-    color: #00CED1; /* Dark Turquoise */
+    color: #4CAF50; /* Green Header */
 }
 
 p {
     line-height: 1.6;
-    font-size: 18px;
-    color: #00FFFF; /* Turquoise */
+    font-size: 16px;
 }
 
 a {
-    color: #fff; /* White */
+    color: #29B6F6; /* Blue Link Color */
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 1px solid #fff; /* White */
+    text-decoration: underline;
 }
 
 ul {
@@ -38,4 +37,12 @@ li {
 #toc {
     max-width: 600px;
     margin: 0 auto;
+}
+
+code {
+    background-color: #2C2C2C; /* Dark Gray Code Background */
+    color: #FF9800; /* Orange Code Color */
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace; /* Monospaced Font for Code */
 }

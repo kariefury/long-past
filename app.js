@@ -37,6 +37,12 @@ fs.readFile(xmlFilePath, 'utf-8', (err, data) => {
 
         items.forEach(item => {
             const title = he.decode(item.title);
+
+            // Exclude the post titled "Custom styles"
+        if (title.toLowerCase() === 'custom styles') {
+            return;
+        }
+
             const content = he.decode(item['content:encoded']);
             const pubDate = new Date(item.pubDate);
 
@@ -70,7 +76,7 @@ fs.readFile(xmlFilePath, 'utf-8', (err, data) => {
             const snippet = words.length > 25 ? words.slice(0, 25).join(' ') : '';
 
             // Add entry to the table of contents with snippet
-            toc.push(`<li><a href="../${fileName}">${title} - ${pubDate.toDateString()}${snippet ? `<br>${snippet}` : ''}</a></li>`);
+            toc.push(`<li><a href="docs/${fileName}">${title} - ${pubDate.toDateString()}${snippet ? `<br>${snippet}` : ''}</a></li>`);
 
             counter++;
         });
