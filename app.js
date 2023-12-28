@@ -76,7 +76,7 @@ fs.readFile(xmlFilePath, 'utf-8', (err, data) => {
             const snippet = words.length > 25 ? words.slice(0, 25).join(' ') : '';
 
             // Add entry to the table of contents with snippet
-            toc.push(`<li><a href="docs/${fileName}">${title} - ${pubDate.toDateString()}${snippet ? `<br>${snippet}` : ''}</a></li>`);
+            toc.push(`<li><a href="https://kariefury.github.io/long-past/${fileName}">${title} - ${pubDate.toDateString()}${snippet ? `<br>${snippet}` : ''}</a></li>`);
 
             counter++;
         });
